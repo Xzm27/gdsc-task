@@ -14,7 +14,6 @@ export const fetchEventDetail = async ({ queryKey }) => {
         .then(res => res.json())
 
     const eventData = data.content.data.find(i=> i.id === +id)
-    console.log(eventData);
     return eventData
 }
 
