@@ -9,7 +9,6 @@ import Error from "../Error";
 
 const Home = () => {
   const { data: events, isLoading, isError } = useQuery(["eventdata"], fetchEvents);
-  console.log(events);
 
   // animations
   const container = {
