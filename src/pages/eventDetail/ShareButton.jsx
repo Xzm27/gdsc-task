@@ -60,7 +60,7 @@ function ShareButton() {
 
   // share blog link to linkedin
   function handleLinkedinShare() {
-    const linkedInShareUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${url}`;
+    const linkedInShareUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${eventUrl}`;
     window.open(linkedInShareUrl, "_blank");
     // close the dropdown
     setIsOpen(false);
