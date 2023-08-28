@@ -1,6 +1,6 @@
 // fetch all the events from the api
 export const fetchEvents = async () => {
-    const data = await fetch("https://gdscdev.vercel.app/apia")
+    const data = await fetch("https://gdscdev.vercel.app/api")
         .then(res => res.json())
     
     return data.content.data
