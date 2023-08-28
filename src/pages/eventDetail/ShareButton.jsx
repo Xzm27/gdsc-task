@@ -60,9 +60,9 @@ function ShareButton() {
 
   // share blog link to linkedin
   function handleLinkedinShare() {
-    const linkedInShareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
+    const linkedInShareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${
       eventUrl
-    )}`;
+    }`;
     window.open(linkedInShareUrl, "_blank");
     // close the dropdown
     setIsOpen(false);
