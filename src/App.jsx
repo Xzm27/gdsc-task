@@ -2,10 +2,10 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 
 import Layout from "./pages/Layout";
-import Home from "./pages/home/home";
-import EventDetail from "./pages/eventDetail/eventdetail";
 import { AnimatePresence } from "framer-motion";
 import { useLocation } from "react-router-dom";
+import Home from './pages/home/Home';
+import EventDetail from './pages/eventDetail/EventDetail';
 
 function App() {
   const location = useLocation();
