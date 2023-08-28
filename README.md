@@ -1,8 +1,11 @@
-# React + Vite
+# GDSC TASK- EVENTS WEBSITE
+### Deployed Link: 
+Website which fetches from the provided api and displays events
+Technologies used: Vite, React.js, React Query, Framer Motion, and Material UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instructions to run
+CLone the repository
+```
+npm install
+npm run dev
+```
