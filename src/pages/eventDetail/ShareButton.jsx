@@ -113,7 +113,7 @@ function ShareButton() {
       {/* Link copied confirmation */}
       {/* onnoder jonno bug bounty remember to add && !isOpen */}
       {isCopied && (
-        <div className="fixed bottom-10 right-20 p-3 bg-green-500 text-white border-2 border-black z-50">
+        <div className="fixed bottom-5 right-5 p-3 bg-green-500 text-white border-2 border-black z-50">
           <p>
             Link copied to clipboard <CheckCircleOutlineIcon className="mb-1" />
           </p>
