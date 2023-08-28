@@ -62,7 +62,7 @@ function ShareButton() {
   function handleLinkedinShare() {
     const linkedInShareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${
       eventUrl
-    }`;
+      }`;
     window.open(linkedInShareUrl, "_blank");
     // close the dropdown
     setIsOpen(false);
