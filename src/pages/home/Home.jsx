@@ -5,10 +5,8 @@ import { fetchEvents } from "../../utils/utils";
 import EventComponent from "./EventComponent";
 import { motion } from "framer-motion";
 import Loader from "../Loader";
-import Error from "../Error";
-
 const Home = () => {
-  const { data: events, isLoading, isError } = useQuery(["eventdata"], fetchEvents);
+  const { data: events, isLoading } = useQuery(["eventdata"], fetchEvents);
 
   // animations
   const container = {
@@ -28,10 +26,6 @@ const Home = () => {
 
   if (isLoading) {
     return <Loader />;
-  }
-
-  if (isError) {
-    return <Error />
   }
 
   return (
